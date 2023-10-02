@@ -62,8 +62,7 @@ class Util {
                 }
             }
         } catch (Exception e) {
-            // TODO: handle exception
-
+            System.out.println(e.getMessage().toString());
         }
 
         return false;
